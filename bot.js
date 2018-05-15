@@ -46,7 +46,7 @@ bot.on("message", function(message) {
         var embed = new Discord.RichEmbed()
             .setColor(0xff0606)
             .setTitle("Invalid Syntax")
-            .setDescription("Do **~help** For A List Of Commands...")
+            .setDescription("Do **$help** For A List Of Commands...")
         message.channel.sendEmbed(embed);
         break;
     }
